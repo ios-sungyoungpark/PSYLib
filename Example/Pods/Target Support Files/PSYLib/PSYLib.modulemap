@@ -1,0 +1,6 @@
+framework module PSYLib {
+  umbrella header "PSYLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

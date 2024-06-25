@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12AE859ED7FC98250492E2AFA1B7344B /* Pods-PSYLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F460F67B122885E14B765A7F7B648CCC /* Pods-PSYLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3200D89E15E2C29C42ABE18CFE764FA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3F73F268840BCF8D48D32301A55B11F3 /* Pods-PSYLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A10CCD1A995330614A23F84AA491D481 /* Pods-PSYLib_Example-dummy.m */; };
+		7ECABCB07B389F43A45C1A5900A0BE4C /* PSYLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 681C7A36DA8149602726085745C8DEE3 /* PSYLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3DC9EABFBEC848E38E2470D2B5C8C15 /* Pods-PSYLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B26E46B16A6DF634ECBB42ABFC9584C /* Pods-PSYLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4991844240DBE1562BD712EC243A6FD /* PSYLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E28222AE49B391B2E6011A5420EFFA /* PSYLib-dummy.m */; };
+		B396778102B6D8AAC5B63FEE7BB47AAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B3DE9A5021A40F3B8EC6AD7B9AF9A92B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E5B6B3CB7B184485F6EB6AC04ADE6DD3 /* Pods-PSYLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8EE2E30C39C97B07109191C7D8F3CA /* Pods-PSYLib_Tests-dummy.m */; };
+		EED094FF93FBB083F4AC14A2B3170A80 /* PSYLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E98FD1E40784B513686F579C7726351 /* PSYLib.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		713EDADB2BF157F22A0EC68D14C2B08B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB2B92FC7AA0507F1AA5F515020180F2;
+			remoteInfo = "Pods-PSYLib_Example";
+		};
+		87773FA37F0192E48E6D91CB3FDAB078 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 206536B52EE2E497320AD24CEBADB455;
+			remoteInfo = PSYLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C0EDDE90C9FD3FEA06D8006C98F2B52 /* Pods-PSYLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PSYLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0CAAC0E20FF88EC8D5FAB0EBF7705E5C /* Pods-PSYLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PSYLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1D7270B4975016C27E881A217DE0AC80 /* Pods-PSYLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PSYLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		26F0E23318100DF903F479AF347AE1AC /* Pods-PSYLib_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PSYLib_Example-Info.plist"; sourceTree = "<group>"; };
+		3B26E46B16A6DF634ECBB42ABFC9584C /* Pods-PSYLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PSYLib_Example-umbrella.h"; sourceTree = "<group>"; };
+		3E15FC577D9DF01D706417D5A598AFBC /* Pods-PSYLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PSYLib_Tests.modulemap"; sourceTree = "<group>"; };
+		42C6FF980A5999D476A14C32FED4B268 /* Pods-PSYLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PSYLib_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4E98FD1E40784B513686F579C7726351 /* PSYLib.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PSYLib.swift; path = PSYLib/Classes/PSYLib.swift; sourceTree = "<group>"; };
+		5687C44EFAFAF53F27A6297691275FF1 /* PSYLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PSYLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5B28EE95158A4EC34111BDA614571887 /* PSYLib */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PSYLib; path = PSYLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62531370FC7730F1BEC3A8745373E87F /* PSYLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PSYLib.release.xcconfig; sourceTree = "<group>"; };
+		681C7A36DA8149602726085745C8DEE3 /* PSYLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PSYLib-umbrella.h"; sourceTree = "<group>"; };
+		6FED156326C830C233B3FE765F72508C /* PSYLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PSYLib-prefix.pch"; sourceTree = "<group>"; };
+		709EF3CE2998FE9937428E8330DBD56C /* PSYLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PSYLib.modulemap; sourceTree = "<group>"; };
+		7194403F08FA4D79C52637C144C30805 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		841B2BCFE4A09F1E62552B2C74B7D8D7 /* PSYLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PSYLib.debug.xcconfig; sourceTree = "<group>"; };
+		8A00A7529C5E5286EC1FB0AAC62908D2 /* Pods-PSYLib_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PSYLib_Example"; path = Pods_PSYLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9914F8E05EA4E974F4541BD436A26740 /* Pods-PSYLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PSYLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FC0D3ED0361EAE9FA09F8DEA6CF6771 /* Pods-PSYLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PSYLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A10CCD1A995330614A23F84AA491D481 /* Pods-PSYLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PSYLib_Example-dummy.m"; sourceTree = "<group>"; };
+		A5E28222AE49B391B2E6011A5420EFFA /* PSYLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PSYLib-dummy.m"; sourceTree = "<group>"; };
+		A70B5D59A8430D45D6347E5CDB2BC95F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B1DA429B9C9A09A236A682BFFB881230 /* Pods-PSYLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PSYLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B44533CFE466D39DF112205C94FBBB7D /* Pods-PSYLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PSYLib_Tests-Info.plist"; sourceTree = "<group>"; };
+		C633D8A66F48AECE402143E20795DB42 /* PSYLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PSYLib-Info.plist"; sourceTree = "<group>"; };
+		C736127E7DF531A8DEA332EAB643E265 /* Pods-PSYLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PSYLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		DD26E91B097A8C577419451D9D80B101 /* Pods-PSYLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PSYLib_Example.modulemap"; sourceTree = "<group>"; };
+		E29CC8D0A2218386A16BE9E0792B8E26 /* Pods-PSYLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PSYLib_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F460F67B122885E14B765A7F7B648CCC /* Pods-PSYLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PSYLib_Tests-umbrella.h"; sourceTree = "<group>"; };
+		FCEA0C31CBB392EDA5A750AC1A7A38DA /* Pods-PSYLib_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PSYLib_Tests"; path = Pods_PSYLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE8EE2E30C39C97B07109191C7D8F3CA /* Pods-PSYLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PSYLib_Tests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		218895321C32CEE42ACE9B35C3D5B093 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B396778102B6D8AAC5B63FEE7BB47AAC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FFB94F45878174846A975FFF0ACF663 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3DE9A5021A40F3B8EC6AD7B9AF9A92B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5DC7BC1F826CD8CACE5AC479EFAFD2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3200D89E15E2C29C42ABE18CFE764FA2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02CE318C5AC2BDB4ED79217F79390374 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A70B5D59A8430D45D6347E5CDB2BC95F /* LICENSE */,
+				5687C44EFAFAF53F27A6297691275FF1 /* PSYLib.podspec */,
+				7194403F08FA4D79C52637C144C30805 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		1B9D51693A880A62F96AD83AEAEE9612 /* PSYLib */ = {
+			isa = PBXGroup;
+			children = (
+				4E98FD1E40784B513686F579C7726351 /* PSYLib.swift */,
+				02CE318C5AC2BDB4ED79217F79390374 /* Pod */,
+				999E8BA505C12BC62C1B25DACB26EC6D /* Support Files */,
+			);
+			name = PSYLib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3C4A8CAD55AF4EDBE73127ED4C179700 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A00A7529C5E5286EC1FB0AAC62908D2 /* Pods-PSYLib_Example */,
+				FCEA0C31CBB392EDA5A750AC1A7A38DA /* Pods-PSYLib_Tests */,
+				5B28EE95158A4EC34111BDA614571887 /* PSYLib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FD7EDE1242DD84491DC9EF413D89BB2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				454432FB1FB1DE7072215EBCF94ABD33 /* Pods-PSYLib_Example */,
+				F1A57F70B43AAF7FBA6A4A993E8B3D17 /* Pods-PSYLib_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		454432FB1FB1DE7072215EBCF94ABD33 /* Pods-PSYLib_Example */ = {
+			isa = PBXGroup;
+			children = (
+				DD26E91B097A8C577419451D9D80B101 /* Pods-PSYLib_Example.modulemap */,
+				1D7270B4975016C27E881A217DE0AC80 /* Pods-PSYLib_Example-acknowledgements.markdown */,
+				9FC0D3ED0361EAE9FA09F8DEA6CF6771 /* Pods-PSYLib_Example-acknowledgements.plist */,
+				A10CCD1A995330614A23F84AA491D481 /* Pods-PSYLib_Example-dummy.m */,
+				E29CC8D0A2218386A16BE9E0792B8E26 /* Pods-PSYLib_Example-frameworks.sh */,
+				26F0E23318100DF903F479AF347AE1AC /* Pods-PSYLib_Example-Info.plist */,
+				3B26E46B16A6DF634ECBB42ABFC9584C /* Pods-PSYLib_Example-umbrella.h */,
+				0CAAC0E20FF88EC8D5FAB0EBF7705E5C /* Pods-PSYLib_Example.debug.xcconfig */,
+				42C6FF980A5999D476A14C32FED4B268 /* Pods-PSYLib_Example.release.xcconfig */,
+			);
+			name = "Pods-PSYLib_Example";
+			path = "Target Support Files/Pods-PSYLib_Example";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6C78AF977B915323EE2FEE1073A50305 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B9D51693A880A62F96AD83AEAEE9612 /* PSYLib */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		999E8BA505C12BC62C1B25DACB26EC6D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				709EF3CE2998FE9937428E8330DBD56C /* PSYLib.modulemap */,
+				A5E28222AE49B391B2E6011A5420EFFA /* PSYLib-dummy.m */,
+				C633D8A66F48AECE402143E20795DB42 /* PSYLib-Info.plist */,
+				6FED156326C830C233B3FE765F72508C /* PSYLib-prefix.pch */,
+				681C7A36DA8149602726085745C8DEE3 /* PSYLib-umbrella.h */,
+				841B2BCFE4A09F1E62552B2C74B7D8D7 /* PSYLib.debug.xcconfig */,
+				62531370FC7730F1BEC3A8745373E87F /* PSYLib.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PSYLib";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				6C78AF977B915323EE2FEE1073A50305 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				3C4A8CAD55AF4EDBE73127ED4C179700 /* Products */,
+				3FD7EDE1242DD84491DC9EF413D89BB2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1A57F70B43AAF7FBA6A4A993E8B3D17 /* Pods-PSYLib_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3E15FC577D9DF01D706417D5A598AFBC /* Pods-PSYLib_Tests.modulemap */,
+				9914F8E05EA4E974F4541BD436A26740 /* Pods-PSYLib_Tests-acknowledgements.markdown */,
+				B1DA429B9C9A09A236A682BFFB881230 /* Pods-PSYLib_Tests-acknowledgements.plist */,
+				FE8EE2E30C39C97B07109191C7D8F3CA /* Pods-PSYLib_Tests-dummy.m */,
+				B44533CFE466D39DF112205C94FBBB7D /* Pods-PSYLib_Tests-Info.plist */,
+				F460F67B122885E14B765A7F7B648CCC /* Pods-PSYLib_Tests-umbrella.h */,
+				C736127E7DF531A8DEA332EAB643E265 /* Pods-PSYLib_Tests.debug.xcconfig */,
+				0C0EDDE90C9FD3FEA06D8006C98F2B52 /* Pods-PSYLib_Tests.release.xcconfig */,
+			);
+			name = "Pods-PSYLib_Tests";
+			path = "Target Support Files/Pods-PSYLib_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0B35BA07080F5F3FBF3A9CA5146E4DAA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3DC9EABFBEC848E38E2470D2B5C8C15 /* Pods-PSYLib_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0E281B1545291C4D132AA54D676B675 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ECABCB07B389F43A45C1A5900A0BE4C /* PSYLib-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2BB86EBBB94FB0E44CA8272CED588DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12AE859ED7FC98250492E2AFA1B7344B /* Pods-PSYLib_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		206536B52EE2E497320AD24CEBADB455 /* PSYLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CF21FCDC5A2AF2AB77949A06921BF02 /* Build configuration list for PBXNativeTarget "PSYLib" */;
+			buildPhases = (
+				C0E281B1545291C4D132AA54D676B675 /* Headers */,
+				9707EE57F3B69B30273873D1BCA3C71F /* Sources */,
+				A5DC7BC1F826CD8CACE5AC479EFAFD2D /* Frameworks */,
+				17BFEC188A9A57672924567285F5F846 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PSYLib;
+			productName = PSYLib;
+			productReference = 5B28EE95158A4EC34111BDA614571887 /* PSYLib */;
+			productType = "com.apple.product-type.framework";
+		};
+		BB2B92FC7AA0507F1AA5F515020180F2 /* Pods-PSYLib_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1B697F6D24FF7D5B78EC54C0439A68F /* Build configuration list for PBXNativeTarget "Pods-PSYLib_Example" */;
+			buildPhases = (
+				0B35BA07080F5F3FBF3A9CA5146E4DAA /* Headers */,
+				DB60C4652F67CCF714E03D9B76322E20 /* Sources */,
+				218895321C32CEE42ACE9B35C3D5B093 /* Frameworks */,
+				20740F04300E9DFB22549EBFC362FC18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8616BB7D75E686F873CCECCD214C6E6 /* PBXTargetDependency */,
+			);
+			name = "Pods-PSYLib_Example";
+			productName = Pods_PSYLib_Example;
+			productReference = 8A00A7529C5E5286EC1FB0AAC62908D2 /* Pods-PSYLib_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		CDF1EAE12CBA41D75740AAE102367EA1 /* Pods-PSYLib_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8AFB87E3A1B8DCB50101D2109B23879 /* Build configuration list for PBXNativeTarget "Pods-PSYLib_Tests" */;
+			buildPhases = (
+				E2BB86EBBB94FB0E44CA8272CED588DA /* Headers */,
+				B7380A29F36ABF0B87D048ACF8856C87 /* Sources */,
+				2FFB94F45878174846A975FFF0ACF663 /* Frameworks */,
+				32FF88E453E3521A717FB70BAB486424 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A490DE6B39650BE90CD4116305EC84AC /* PBXTargetDependency */,
+			);
+			name = "Pods-PSYLib_Tests";
+			productName = Pods_PSYLib_Tests;
+			productReference = FCEA0C31CBB392EDA5A750AC1A7A38DA /* Pods-PSYLib_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 3C4A8CAD55AF4EDBE73127ED4C179700 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB2B92FC7AA0507F1AA5F515020180F2 /* Pods-PSYLib_Example */,
+				CDF1EAE12CBA41D75740AAE102367EA1 /* Pods-PSYLib_Tests */,
+				206536B52EE2E497320AD24CEBADB455 /* PSYLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17BFEC188A9A57672924567285F5F846 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20740F04300E9DFB22549EBFC362FC18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32FF88E453E3521A717FB70BAB486424 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9707EE57F3B69B30273873D1BCA3C71F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EED094FF93FBB083F4AC14A2B3170A80 /* PSYLib.swift in Sources */,
+				A4991844240DBE1562BD712EC243A6FD /* PSYLib-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7380A29F36ABF0B87D048ACF8856C87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5B6B3CB7B184485F6EB6AC04ADE6DD3 /* Pods-PSYLib_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB60C4652F67CCF714E03D9B76322E20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F73F268840BCF8D48D32301A55B11F3 /* Pods-PSYLib_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A490DE6B39650BE90CD4116305EC84AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PSYLib_Example";
+			target = BB2B92FC7AA0507F1AA5F515020180F2 /* Pods-PSYLib_Example */;
+			targetProxy = 713EDADB2BF157F22A0EC68D14C2B08B /* PBXContainerItemProxy */;
+		};
+		F8616BB7D75E686F873CCECCD214C6E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PSYLib;
+			target = 206536B52EE2E497320AD24CEBADB455 /* PSYLib */;
+			targetProxy = 87773FA37F0192E48E6D91CB3FDAB078 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04322641D6B4011F852755289BE49402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C0EDDE90C9FD3FEA06D8006C98F2B52 /* Pods-PSYLib_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PSYLib_Tests/Pods-PSYLib_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PSYLib_Tests/Pods-PSYLib_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		094DC4A449BCDB0D2971A947FF7407A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 841B2BCFE4A09F1E62552B2C74B7D8D7 /* PSYLib.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PSYLib/PSYLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PSYLib/PSYLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PSYLib/PSYLib.modulemap";
+				PRODUCT_MODULE_NAME = PSYLib;
+				PRODUCT_NAME = PSYLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1D6EC4B36FBCD4387F5D07C9C9AD4000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CAAC0E20FF88EC8D5FAB0EBF7705E5C /* Pods-PSYLib_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PSYLib_Example/Pods-PSYLib_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PSYLib_Example/Pods-PSYLib_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		23259464C63DC90E4F63CB03750AF090 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C736127E7DF531A8DEA332EAB643E265 /* Pods-PSYLib_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PSYLib_Tests/Pods-PSYLib_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PSYLib_Tests/Pods-PSYLib_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C7B9B9C4A9685C77A75C37F7A82FA5DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62531370FC7730F1BEC3A8745373E87F /* PSYLib.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PSYLib/PSYLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PSYLib/PSYLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PSYLib/PSYLib.modulemap";
+				PRODUCT_MODULE_NAME = PSYLib;
+				PRODUCT_NAME = PSYLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E1FFBE28545095C8D89E329BAA1B67A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42C6FF980A5999D476A14C32FED4B268 /* Pods-PSYLib_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PSYLib_Example/Pods-PSYLib_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PSYLib_Example/Pods-PSYLib_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CF21FCDC5A2AF2AB77949A06921BF02 /* Build configuration list for PBXNativeTarget "PSYLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				094DC4A449BCDB0D2971A947FF7407A3 /* Debug */,
+				C7B9B9C4A9685C77A75C37F7A82FA5DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1B697F6D24FF7D5B78EC54C0439A68F /* Build configuration list for PBXNativeTarget "Pods-PSYLib_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6EC4B36FBCD4387F5D07C9C9AD4000 /* Debug */,
+				E1FFBE28545095C8D89E329BAA1B67A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8AFB87E3A1B8DCB50101D2109B23879 /* Build configuration list for PBXNativeTarget "Pods-PSYLib_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23259464C63DC90E4F63CB03750AF090 /* Debug */,
+				04322641D6B4011F852755289BE49402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
